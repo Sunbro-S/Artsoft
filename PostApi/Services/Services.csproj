@@ -7,13 +7,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ExampleCore\ExampleCore.csproj" />
+      <PackageReference Include="Medo.Uuid7" Version="1.9.1" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0-preview.4.24266.19" />
+      <PackageReference Include="Npgsql" Version="8.0.3" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.0-preview.3" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Medo.Uuid7" Version="1.9.1" />
-      <PackageReference Include="Npgsql" Version="8.0.3" />
-      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.0-preview.3" />
+      <ProjectReference Include="..\..\Libs\ProfileConnectionLib\ProfileConnectionLib.csproj" />
+      <ProjectReference Include="..\Domain\Domain.csproj" />
     </ItemGroup>
 
 </Project>
