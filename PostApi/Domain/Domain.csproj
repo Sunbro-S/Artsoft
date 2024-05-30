@@ -6,9 +6,11 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+
     <ItemGroup>
-      <ProjectReference Include="..\ExampleCore\ExampleCore.csproj" />
+      <ProjectReference Include="..\..\Libs\ExampleCore\ExampleCore.csproj" />
     </ItemGroup>
+
 
     <ItemGroup>
       <PackageReference Include="Medo.Uuid7" Version="1.9.1" />

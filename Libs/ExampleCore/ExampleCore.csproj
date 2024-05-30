@@ -8,10 +8,10 @@
 
     <ItemGroup>
         <PackageReference Include="Destructurama.Attributed" Version="4.0.0" />
+        <PackageReference Include="Medo.Uuid7" Version="1.9.1" />
         <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.1" />
         <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.1.0" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.1"/>
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0-preview.4.24267.1" />
         <PackageReference Include="Polly" Version="8.3.0" />
         <PackageReference Include="Polly.Extensions.Http" Version="3.0.0" />
         <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
