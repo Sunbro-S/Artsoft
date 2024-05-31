@@ -7,6 +7,10 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="MassTransit" Version="8.2.3-develop.1832" />
+      <PackageReference Include="MassTransit.EntityFramework" Version="8.2.3-develop.1832" />
+      <PackageReference Include="MassTransit.EntityFrameworkCore" Version="8.2.3-develop.1832" />
+      <PackageReference Include="MassTransit.RabbitMQ" Version="8.2.3-develop.1832" />
       <PackageReference Include="Medo.Uuid7" Version="1.9.1" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0-preview.4.24266.19" />
       <PackageReference Include="Npgsql" Version="8.0.3" />
@@ -19,5 +23,6 @@
       <ProjectReference Include="..\..\Libs\ProfileConnectionLib\ProfileConnectionLib.csproj" />
       <ProjectReference Include="..\Domain\Domain.csproj" />
     </ItemGroup>
+
 
 </Project>
