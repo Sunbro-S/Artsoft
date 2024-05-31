@@ -7,6 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="AsyncAwaitUtils" Version="1.0.3" />
         <PackageReference Include="Destructurama.Attributed" Version="4.0.0" />
         <PackageReference Include="Medo.Uuid7" Version="1.9.1" />
         <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.1" />
@@ -26,7 +27,9 @@
         <PackageReference Include="System.Net.Http" Version="4.3.4" />
         <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
         <PackageReference Include="Serilog.Enrichers.Thread" Version="3.1.0" />
+        <PackageReference Include="ZooKeeperNetEx" Version="3.4.12.4" />
     </ItemGroup>
+
 
 
 </Project>
